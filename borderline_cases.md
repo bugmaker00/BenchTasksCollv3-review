@@ -66,7 +66,7 @@ They were excluded from the canonical `bugmaker00/BenchTasksCollv3-review@finalp
 
 ### 6. `lueyang/lead-tracker`  
 **Source branch:** `lueyang-dev` | **Developer:** lueyang  
-**Structure:** docs (3 files) · evaluation/main.py · groundtruth\_workspace/readme.txt  
+**Structure:** docs (3 files) · evaluation/main.py · groundtruth\_workspace/readme.txt · initial\_workspace/readme.txt · preprocess/main.py  
 **Doc sizes:** agent\_system\_prompt.md 119 B (✓) · task.md 83 B (✓) · user\_system\_prompt.md 47 B (✓)  
 **Why rejected:** Lead tracking is the first stage of the CRM pipeline. **`crm-system`** (kept) and **`contact-manager`** (kept) already cover the full lifecycle from contact creation to relationship management. A standalone lead-tracking task duplicates those evaluation scenarios.  
 **Kept alternatives:** `crm-system`, `contact-manager`
@@ -95,7 +95,7 @@ They were excluded from the canonical `bugmaker00/BenchTasksCollv3-review@finalp
 **Source branch:** `zhaochen` | **Developer:** zhaochen  
 **Structure:** docs (3 files) · evaluation/main.py · groundtruth\_workspace/readme.txt · initial\_workspace/readme.txt · preprocess/main.py  
 **Doc sizes:** agent\_system\_prompt.md 125 B (✓) · task.md 95 B (✓) · user\_system\_prompt.md 53 B (✓)  
-**Why rejected:** Markdown-to-HTML/PDF conversion is a narrow instance of template rendering. **`template-engine`** (kept, same developer zhaochen) already covers text transformation with substitution and formatting logic. Including both tasks from the same developer would bias zhaochen's contribution toward text-processing.  
+**Why rejected:** Markdown-to-HTML/PDF conversion is a narrow instance of template rendering. **`template-engine`** (kept, same developer zhaochen) already covers text transformation with substitution and formatting logic. Including both tasks from the same developer would bias zhaochen’s contribution toward text-processing.  
 **Kept alternative:** `template-engine`
 
 ---
