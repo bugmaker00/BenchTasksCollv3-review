@@ -114,4 +114,4 @@ markdown-converter,zhaochen,zhaochen,n/a,DROP,E3,Editorial curation — semantic
 review-aggregator,fan-dev,fan,n/a,DROP,E3,Editorial curation — semantic overlap with kept task,Clean text; standard template sizes; overlaps with feedback-collector + sentiment-analyzer (review aggregation ⊆ feedback analysis)
 thumbnail-creator,haoze,haoze,n/a,DROP,E3,Editorial curation — semantic overlap with kept task,Clean text; standard template sizes; overlaps with image-processor (thumbnail generation ⊆ image processing)
 url-shortener,junxian_dev,junxian,n/a,DROP,E3,Editorial curation — semantic overlap with kept task,Clean text; standard template sizes; overlaps with qr-generator (both link-utility tools; qr-generator provides broader QR scope)
-wishlist-manager,fan-dev,fan,n/a,DROP,E3,Editorial curation — semantic overlap with kept task,Clean text; standard template sizes; overlaps with product-catalog/content-manager (wish-list ⊆ catalog management)
+wishlist-manager,fan-dev,fan,n/a,DROP,E3,Editorial curation — semantic overlap with kept task,Clean text; standard template sizes; overlaps with product-catalog + content-manager (wish-list ⊆ catalog management)
