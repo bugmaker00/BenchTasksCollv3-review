@@ -1,0 +1,42 @@
+{
+  "task_dir": "examples/example-task",
+  "id": "examples-example-task",
+  "needed_mcp_servers": [
+    "github"
+  ],
+  "needed_local_tools": [
+    "python_execute",
+    "claim_done"
+  ],
+  "task_root": "/opt/mcpbench/tasks/examples/example-task",
+  "task_str": "This file must be non-empty and all English (no Chinese)",
+  "log_file": "/opt/mcpbench/tasks/examples/example-task/log.json",
+  "agent_workspace": "/opt/mcpbench/tasks/examples/example-task/workspace",
+  "launch_time": "2025-09-01 10:00:00 Monday",
+  "max_turns": null,
+  "max_steps_under_single_turn_mode": null,
+  "single_turn_mode": false,
+  "cn_mode": false,
+  "system_prompts": {
+    "agent": "This file must be non-empty and all English (no Chinese)",
+    "user": "This file is optional, but if it is non-empty, is has to be all English"
+  },
+  "initialization": {
+    "workspace": "tasks/examples/example-task/initial_workspace",
+    "process_command": "uv run -m tasks.examples.example-task.preprocess.main"
+  },
+  "stop": {
+    "user_phrases": [
+      "#### STOP"
+    ],
+    "tool_names": [
+      "local-claim_done"
+    ]
+  },
+  "evaluation": {
+    "groundtruth_workspace": "tasks/examples/example-task/groundtruth_workspace",
+    "evaluation_command": "uv run -m tasks.examples.example-task.evaluation.main"
+  },
+  "meta": {},
+  "local_token_key_session": null
+}
