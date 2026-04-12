@@ -1,0 +1,1587 @@
+{
+  "description": "Finalized id\u2192path mapping for shard 2 (tasks email-campaign \u2026 product-catalog) of the BenchTasksCollv3-review finalpool. All entries passed boundary-review rule E0 and are safe to apply live.",
+  "shard": "single_2",
+  "shard_index": 2,
+  "shard_tasks_range": "email-campaign \u2026 product-catalog (alphabetical positions 27\u201352 of 77 E0 tasks)",
+  "total_tasks": 26,
+  "total_files": 128,
+  "review_status": "KEEP",
+  "rule": "E0",
+  "source_repository": "bugmaker00/BenchTasksCollv3-review",
+  "source_branch": "finalpool",
+  "canonical_finalpool_commit": "531b8ecc7c8d351a11f828fb88b6b34be91c5857",
+  "cross_reference": {
+    "id_alignment_csv": "id_alignment_single_2.csv",
+    "csv_total_rows": 128,
+    "csv_keep_rows": 128,
+    "csv_drop_rows": 0
+  },
+  "task_summary": [
+    {
+      "task": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 6
+    },
+    {
+      "task": "email-classification-system",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 6
+    },
+    {
+      "task": "error-tracker",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 5
+    },
+    {
+      "task": "expense-tracker",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 5
+    },
+    {
+      "task": "feedback-collector",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 5
+    },
+    {
+      "task": "file-manager",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 4
+    },
+    {
+      "task": "follow-up-reminder",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "file_count": 5
+    },
+    {
+      "task": "form-builder",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 3
+    },
+    {
+      "task": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 5
+    },
+    {
+      "task": "help-desk",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 6
+    },
+    {
+      "task": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "file_count": 6
+    },
+    {
+      "task": "inventory-management",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 4
+    },
+    {
+      "task": "invoice-generator",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 4
+    },
+    {
+      "task": "load-balancer",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "file_count": 4
+    },
+    {
+      "task": "log-analyzer",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "file_count": 5
+    },
+    {
+      "task": "loyalty-program",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "file_count": 5
+    },
+    {
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "file_count": 7
+    },
+    {
+      "task": "monitoring-agent",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "file_count": 5
+    },
+    {
+      "task": "network-analyzer",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "file_count": 3
+    },
+    {
+      "task": "order-processor",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 4
+    },
+    {
+      "task": "payment-processor",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 5
+    },
+    {
+      "task": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "file_count": 6
+    },
+    {
+      "task": "permission-manager",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "file_count": 5
+    },
+    {
+      "task": "personalization-service",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "file_count": 4
+    },
+    {
+      "task": "price-tracker",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "file_count": 4
+    },
+    {
+      "task": "product-catalog",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "file_count": 6
+    }
+  ],
+  "mappings": [
+    {
+      "id": "S2-0001",
+      "task": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/email-campaign/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/email-campaign/docs/agent_system_prompt.md",
+      "file_sha": "b5571ff0b8b29deac98e697c5eb8e883a532f763",
+      "file_size": 121,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0002",
+      "task": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/email-campaign/docs/task.md",
+      "dest_path": "tasks/finalpool/email-campaign/docs/task.md",
+      "file_sha": "bfb291790bbf84957f9ced0f353ddd041e3bc8fb",
+      "file_size": 87,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0003",
+      "task": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/email-campaign/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/email-campaign/docs/user_system_prompt.md",
+      "file_sha": "d02fc5512ae724903ba89bd35ef57b57c49bbe72",
+      "file_size": 49,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0004",
+      "task": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/email-campaign/evaluation/main.py",
+      "dest_path": "tasks/finalpool/email-campaign/evaluation/main.py",
+      "file_sha": "3ad9498d28802ad26a2c4cd8f7b3505e5f2e97c7",
+      "file_size": 277,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0005",
+      "task": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/email-campaign/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/email-campaign/groundtruth_workspace/readme.txt",
+      "file_sha": "b594bff06f50288d1372cf0b869d924290ce8e8d",
+      "file_size": 36,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0006",
+      "task": "email-campaign",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/email-campaign/preprocess/main.py",
+      "dest_path": "tasks/finalpool/email-campaign/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0007",
+      "task": "email-classification-system",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/email-classification-system/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/email-classification-system/docs/agent_system_prompt.md",
+      "file_sha": "7358c0e4978c668ea8560853448a9a467ca48530",
+      "file_size": 134,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0008",
+      "task": "email-classification-system",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/email-classification-system/docs/task.md",
+      "dest_path": "tasks/finalpool/email-classification-system/docs/task.md",
+      "file_sha": "ef4d26b7131794d13dd51596e0cd445fa291e7b9",
+      "file_size": 113,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0009",
+      "task": "email-classification-system",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/email-classification-system/evaluation/main.py",
+      "dest_path": "tasks/finalpool/email-classification-system/evaluation/main.py",
+      "file_sha": "d59a313242de93a2dab55afc2ece5a861adae329",
+      "file_size": 290,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0010",
+      "task": "email-classification-system",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/email-classification-system/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/email-classification-system/groundtruth_workspace/readme.txt",
+      "file_sha": "1b84edb6030b5476891a6c0b2948996685c62344",
+      "file_size": 49,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0011",
+      "task": "email-classification-system",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/email-classification-system/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/email-classification-system/initial_workspace/readme.txt",
+      "file_sha": "7403c7b29cbc3b9db40503530736e3d49f9cfaea",
+      "file_size": 50,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0012",
+      "task": "email-classification-system",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/email-classification-system/preprocess/main.py",
+      "dest_path": "tasks/finalpool/email-classification-system/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0013",
+      "task": "error-tracker",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/error-tracker/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/error-tracker/docs/agent_system_prompt.md",
+      "file_sha": "7edfe1654a2825a42d61880372c0abd701fb5edf",
+      "file_size": 120,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0014",
+      "task": "error-tracker",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/error-tracker/docs/task.md",
+      "dest_path": "tasks/finalpool/error-tracker/docs/task.md",
+      "file_sha": "c405eeb6f1b98d809dbee2958bb85d3b061943d7",
+      "file_size": 85,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0015",
+      "task": "error-tracker",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/error-tracker/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/error-tracker/docs/user_system_prompt.md",
+      "file_sha": "98124156820c91c9ee809b9442a4b52138f46abc",
+      "file_size": 48,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0016",
+      "task": "error-tracker",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/error-tracker/evaluation/main.py",
+      "dest_path": "tasks/finalpool/error-tracker/evaluation/main.py",
+      "file_sha": "a5a871584aa65f2ffcbbe382c409baa16bdb3464",
+      "file_size": 276,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0017",
+      "task": "error-tracker",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/error-tracker/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/error-tracker/groundtruth_workspace/readme.txt",
+      "file_sha": "889635f3d8493187c9551df574b31a6fe5ca5700",
+      "file_size": 35,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0018",
+      "task": "expense-tracker",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/expense-tracker/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/expense-tracker/docs/agent_system_prompt.md",
+      "file_sha": "dd1527c8e113eecde97aee2560abefa0b84b47a3",
+      "file_size": 122,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0019",
+      "task": "expense-tracker",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/expense-tracker/docs/task.md",
+      "dest_path": "tasks/finalpool/expense-tracker/docs/task.md",
+      "file_sha": "2d04cc17877d1478cfc19a16b7027502b44e07dd",
+      "file_size": 89,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0020",
+      "task": "expense-tracker",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/expense-tracker/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/expense-tracker/docs/user_system_prompt.md",
+      "file_sha": "f33b43ddad7e3c94292f11ce252d3e8b94f347ee",
+      "file_size": 50,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0021",
+      "task": "expense-tracker",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/expense-tracker/evaluation/main.py",
+      "dest_path": "tasks/finalpool/expense-tracker/evaluation/main.py",
+      "file_sha": "aa44f7e511c249d1af973b84864d65f3783080b1",
+      "file_size": 278,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0022",
+      "task": "expense-tracker",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/expense-tracker/preprocess/main.py",
+      "dest_path": "tasks/finalpool/expense-tracker/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0023",
+      "task": "feedback-collector",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/feedback-collector/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/feedback-collector/docs/agent_system_prompt.md",
+      "file_sha": "a2f93a5f687816bb7260a7df1eb8b3d0efcac228",
+      "file_size": 125,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0024",
+      "task": "feedback-collector",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/feedback-collector/docs/task.md",
+      "dest_path": "tasks/finalpool/feedback-collector/docs/task.md",
+      "file_sha": "0a80d28b35b96121a0fe41009bcfde09c8f16f08",
+      "file_size": 95,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0025",
+      "task": "feedback-collector",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/feedback-collector/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/feedback-collector/docs/user_system_prompt.md",
+      "file_sha": "1dcd2febfff0e0cf8983ea0d235a805020521ddb",
+      "file_size": 53,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0026",
+      "task": "feedback-collector",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/feedback-collector/evaluation/main.py",
+      "dest_path": "tasks/finalpool/feedback-collector/evaluation/main.py",
+      "file_sha": "987379d7c349b1082a48e3dcab79957f6ef6f684",
+      "file_size": 281,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0027",
+      "task": "feedback-collector",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/feedback-collector/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/feedback-collector/initial_workspace/readme.txt",
+      "file_sha": "fb367d1db387cabe5d03204fc154058af3d38565",
+      "file_size": 41,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0028",
+      "task": "file-manager",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/file-manager/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/file-manager/docs/agent_system_prompt.md",
+      "file_sha": "cbdafc0c1771b91fbb7d83108dbbde1fa740e2a6",
+      "file_size": 119,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0029",
+      "task": "file-manager",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/file-manager/docs/task.md",
+      "dest_path": "tasks/finalpool/file-manager/docs/task.md",
+      "file_sha": "e47e4d2eb2cf76d40e429233889c96121cfdd1b9",
+      "file_size": 83,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0030",
+      "task": "file-manager",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/file-manager/evaluation/main.py",
+      "dest_path": "tasks/finalpool/file-manager/evaluation/main.py",
+      "file_sha": "c2121537838967a339dac0eb02d379a68e783404",
+      "file_size": 275,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0031",
+      "task": "file-manager",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/file-manager/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/file-manager/initial_workspace/readme.txt",
+      "file_sha": "39066d1c18ce88edd90983c9a399f868509f68a5",
+      "file_size": 35,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0032",
+      "task": "follow-up-reminder",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/follow-up-reminder/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/follow-up-reminder/docs/agent_system_prompt.md",
+      "file_sha": "1179aefbab97d59e6d3630ee1156b159a023c167",
+      "file_size": 125,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0033",
+      "task": "follow-up-reminder",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/follow-up-reminder/docs/task.md",
+      "dest_path": "tasks/finalpool/follow-up-reminder/docs/task.md",
+      "file_sha": "793f1e2b6bbd40198ef47473d6b5a3b3b00d6fb4",
+      "file_size": 95,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0034",
+      "task": "follow-up-reminder",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/follow-up-reminder/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/follow-up-reminder/docs/user_system_prompt.md",
+      "file_sha": "da206470878d2fcd3036c98103e41374e8a00021",
+      "file_size": 53,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0035",
+      "task": "follow-up-reminder",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/follow-up-reminder/evaluation/main.py",
+      "dest_path": "tasks/finalpool/follow-up-reminder/evaluation/main.py",
+      "file_sha": "659cacbb0b821a3c19d3d60421adfda1dee7281d",
+      "file_size": 281,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0036",
+      "task": "follow-up-reminder",
+      "source_branch": "lueyang-dev",
+      "source_dev": "lueyang",
+      "source_path": "tasks/lueyang/follow-up-reminder/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/follow-up-reminder/groundtruth_workspace/readme.txt",
+      "file_sha": "e53072f4489925e86ab63e9139ac46ea57a95c5b",
+      "file_size": 40,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0037",
+      "task": "form-builder",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/form-builder/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/form-builder/docs/agent_system_prompt.md",
+      "file_sha": "870eb246b060e8f27a0e88a6c2ddea1ba7926f47",
+      "file_size": 119,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0038",
+      "task": "form-builder",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/form-builder/docs/task.md",
+      "dest_path": "tasks/finalpool/form-builder/docs/task.md",
+      "file_sha": "c51655a9f857be1aa69df47713602e4bfc8910ff",
+      "file_size": 83,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0039",
+      "task": "form-builder",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/form-builder/evaluation/main.py",
+      "dest_path": "tasks/finalpool/form-builder/evaluation/main.py",
+      "file_sha": "b0d50f2cb2a54e4ae50220d09023200577f91886",
+      "file_size": 275,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0040",
+      "task": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/health-monitor/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/health-monitor/docs/agent_system_prompt.md",
+      "file_sha": "22489282fa01127b66b5ff8b5e67c1c4a50282b3",
+      "file_size": 121,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0041",
+      "task": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/health-monitor/docs/task.md",
+      "dest_path": "tasks/finalpool/health-monitor/docs/task.md",
+      "file_sha": "c072e606de558f670e54b5cfba11f6846e2ff37a",
+      "file_size": 87,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0042",
+      "task": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/health-monitor/evaluation/main.py",
+      "dest_path": "tasks/finalpool/health-monitor/evaluation/main.py",
+      "file_sha": "dee407e6636554a1af1f1be958fb1e310479553c",
+      "file_size": 277,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0043",
+      "task": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/health-monitor/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/health-monitor/groundtruth_workspace/readme.txt",
+      "file_sha": "a7dabb5a68422eec4a32fb28f031449eb1452b34",
+      "file_size": 36,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0044",
+      "task": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/health-monitor/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/health-monitor/initial_workspace/readme.txt",
+      "file_sha": "3c1c546d8ed8101c995dd5beef9a4279623ed70c",
+      "file_size": 37,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0045",
+      "task": "health-monitor",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/health-monitor/preprocess/main.py",
+      "dest_path": "tasks/finalpool/health-monitor/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0046",
+      "task": "help-desk",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/help-desk/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/help-desk/docs/agent_system_prompt.md",
+      "file_sha": "10fab205dbf151acc2d5e5539c84f74458aeb1f5",
+      "file_size": 116,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0047",
+      "task": "help-desk",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/help-desk/docs/task.md",
+      "dest_path": "tasks/finalpool/help-desk/docs/task.md",
+      "file_sha": "75b6b54d90fec686967b8824864756abd9b64ebd",
+      "file_size": 77,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0048",
+      "task": "help-desk",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/help-desk/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/help-desk/docs/user_system_prompt.md",
+      "file_sha": "fb10b29717704427fcd9ff27299698e5caba32c8",
+      "file_size": 44,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0049",
+      "task": "help-desk",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/help-desk/evaluation/main.py",
+      "dest_path": "tasks/finalpool/help-desk/evaluation/main.py",
+      "file_sha": "6e609f0e6240f62d22fdafc511fe6a28f115011b",
+      "file_size": 272,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0050",
+      "task": "help-desk",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/help-desk/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/help-desk/groundtruth_workspace/readme.txt",
+      "file_sha": "a0b36c00abe7ca4450a5f92ee1329d23b3f83c83",
+      "file_size": 31,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0051",
+      "task": "help-desk",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/help-desk/preprocess/main.py",
+      "dest_path": "tasks/finalpool/help-desk/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0052",
+      "task": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "source_path": "tasks/wenshuo/image-processor/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/image-processor/docs/agent_system_prompt.md",
+      "file_sha": "c738b9ebe133115b5536f7ee1d086218ca4e99b1",
+      "file_size": 122,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0053",
+      "task": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "source_path": "tasks/wenshuo/image-processor/docs/task.md",
+      "dest_path": "tasks/finalpool/image-processor/docs/task.md",
+      "file_sha": "6f13328b1879ea0de0cceb14a4775d61b5116294",
+      "file_size": 89,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0054",
+      "task": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "source_path": "tasks/wenshuo/image-processor/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/image-processor/docs/user_system_prompt.md",
+      "file_sha": "bbbda1442d34b6be91a733095116f343d5d66b90",
+      "file_size": 50,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0055",
+      "task": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "source_path": "tasks/wenshuo/image-processor/evaluation/main.py",
+      "dest_path": "tasks/finalpool/image-processor/evaluation/main.py",
+      "file_sha": "1c088069188713e74fecccaa4f4e8f9eda7ab4f5",
+      "file_size": 278,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0056",
+      "task": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "source_path": "tasks/wenshuo/image-processor/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/image-processor/initial_workspace/readme.txt",
+      "file_sha": "72e4d939567bf3e5f36df385066aece2b804c516",
+      "file_size": 38,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0057",
+      "task": "image-processor",
+      "source_branch": "wenshuo-dev",
+      "source_dev": "wenshuo",
+      "source_path": "tasks/wenshuo/image-processor/preprocess/main.py",
+      "dest_path": "tasks/finalpool/image-processor/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0058",
+      "task": "inventory-management",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/inventory-management/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/inventory-management/docs/agent_system_prompt.md",
+      "file_sha": "56ee0a61c68c7393f581f05b02679d4f20175b57",
+      "file_size": 127,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0059",
+      "task": "inventory-management",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/inventory-management/docs/task.md",
+      "dest_path": "tasks/finalpool/inventory-management/docs/task.md",
+      "file_sha": "a07413add4206c0e0d6f49eb7a5d3839b3e124a7",
+      "file_size": 99,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0060",
+      "task": "inventory-management",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/inventory-management/evaluation/main.py",
+      "dest_path": "tasks/finalpool/inventory-management/evaluation/main.py",
+      "file_sha": "640d0821929a5977933b153ba91aef0697bdfbb6",
+      "file_size": 283,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0061",
+      "task": "inventory-management",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/inventory-management/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/inventory-management/groundtruth_workspace/readme.txt",
+      "file_sha": "4cf94c012fe1cc5e30d03bf157626cb751008f88",
+      "file_size": 42,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0062",
+      "task": "invoice-generator",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/invoice-generator/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/invoice-generator/docs/agent_system_prompt.md",
+      "file_sha": "c293d75e1e1356dbf45b01b624684863e7eac1b5",
+      "file_size": 124,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0063",
+      "task": "invoice-generator",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/invoice-generator/docs/task.md",
+      "dest_path": "tasks/finalpool/invoice-generator/docs/task.md",
+      "file_sha": "a474010b52142c80d6819c6fd3325ee1c3c6e1a9",
+      "file_size": 93,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0064",
+      "task": "invoice-generator",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/invoice-generator/evaluation/main.py",
+      "dest_path": "tasks/finalpool/invoice-generator/evaluation/main.py",
+      "file_sha": "3ee457d91f4bb51e4916a8c2da8f36bccf92f2b8",
+      "file_size": 280,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0065",
+      "task": "invoice-generator",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/invoice-generator/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/invoice-generator/initial_workspace/readme.txt",
+      "file_sha": "440f4424b1dd8fe42fe9b9482f1581305e383376",
+      "file_size": 40,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0066",
+      "task": "load-balancer",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "source_path": "tasks/zhaochen/load-balancer/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/load-balancer/docs/agent_system_prompt.md",
+      "file_sha": "1c2b01c2794000ece302b598364fe2aed79bf7f8",
+      "file_size": 120,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0067",
+      "task": "load-balancer",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "source_path": "tasks/zhaochen/load-balancer/docs/task.md",
+      "dest_path": "tasks/finalpool/load-balancer/docs/task.md",
+      "file_sha": "7c0a385ca9ec28286b83140ca60494e2644753bd",
+      "file_size": 85,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0068",
+      "task": "load-balancer",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "source_path": "tasks/zhaochen/load-balancer/evaluation/main.py",
+      "dest_path": "tasks/finalpool/load-balancer/evaluation/main.py",
+      "file_sha": "d052e55c9bf85e7a4d66d51f8d71b35cc728c4c5",
+      "file_size": 276,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0069",
+      "task": "load-balancer",
+      "source_branch": "zhaochen",
+      "source_dev": "zhaochen",
+      "source_path": "tasks/zhaochen/load-balancer/preprocess/main.py",
+      "dest_path": "tasks/finalpool/load-balancer/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0070",
+      "task": "log-analyzer",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/log-analyzer/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/log-analyzer/docs/agent_system_prompt.md",
+      "file_sha": "787cac4c94488aadbcfd2a59973ff8cbce0a46c9",
+      "file_size": 119,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0071",
+      "task": "log-analyzer",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/log-analyzer/docs/task.md",
+      "dest_path": "tasks/finalpool/log-analyzer/docs/task.md",
+      "file_sha": "c1c6f84f9813037b551bb6e5d26670fd88ca316e",
+      "file_size": 83,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0072",
+      "task": "log-analyzer",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/log-analyzer/evaluation/main.py",
+      "dest_path": "tasks/finalpool/log-analyzer/evaluation/main.py",
+      "file_sha": "9f2e006a08d1d20ca406dd698cd2b826ce5263d9",
+      "file_size": 275,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0073",
+      "task": "log-analyzer",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/log-analyzer/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/log-analyzer/initial_workspace/readme.txt",
+      "file_sha": "beee2d168acd9fce94b7ff29254be4ce52684679",
+      "file_size": 35,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0074",
+      "task": "log-analyzer",
+      "source_branch": "ruige",
+      "source_dev": "ruige",
+      "source_path": "tasks/ruige/log-analyzer/preprocess/main.py",
+      "dest_path": "tasks/finalpool/log-analyzer/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0075",
+      "task": "loyalty-program",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/loyalty-program/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/loyalty-program/docs/agent_system_prompt.md",
+      "file_sha": "6c9e7dd708db3ed0ba93a180ffb693a89b9f991c",
+      "file_size": 122,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0076",
+      "task": "loyalty-program",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/loyalty-program/docs/task.md",
+      "dest_path": "tasks/finalpool/loyalty-program/docs/task.md",
+      "file_sha": "1eff915fadf6900d7f060735550efd4caa761051",
+      "file_size": 89,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0077",
+      "task": "loyalty-program",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/loyalty-program/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/loyalty-program/docs/user_system_prompt.md",
+      "file_sha": "a1414b9adaee6d5acba9a8514e4dc8c10564d790",
+      "file_size": 50,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0078",
+      "task": "loyalty-program",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/loyalty-program/evaluation/main.py",
+      "dest_path": "tasks/finalpool/loyalty-program/evaluation/main.py",
+      "file_sha": "54242173a188c09e6f0362bcb50a3c4c339b9c7f",
+      "file_size": 278,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0079",
+      "task": "loyalty-program",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/loyalty-program/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/loyalty-program/groundtruth_workspace/readme.txt",
+      "file_sha": "8b17eba8a7213fb60c29765fdadbcf31888f2928",
+      "file_size": 37,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0080",
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "source_path": "tasks/haoze/media-organizer/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/media-organizer/docs/agent_system_prompt.md",
+      "file_sha": "c0a5ad88b861884791c55b2c7671d318355ff8c4",
+      "file_size": 122,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0081",
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "source_path": "tasks/haoze/media-organizer/docs/task.md",
+      "dest_path": "tasks/finalpool/media-organizer/docs/task.md",
+      "file_sha": "52a6dba3157fd7f40e795c0c91cb26732b2db55b",
+      "file_size": 89,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0082",
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "source_path": "tasks/haoze/media-organizer/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/media-organizer/docs/user_system_prompt.md",
+      "file_sha": "189aa16b1bc8edf27d079924430aa05298d7aba5",
+      "file_size": 50,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0083",
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "source_path": "tasks/haoze/media-organizer/evaluation/main.py",
+      "dest_path": "tasks/finalpool/media-organizer/evaluation/main.py",
+      "file_sha": "5c84a130d79f0efbd2051d8bacf8601f1354735e",
+      "file_size": 278,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0084",
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "source_path": "tasks/haoze/media-organizer/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/media-organizer/groundtruth_workspace/readme.txt",
+      "file_sha": "312aa3e47102cc647bae8def3467cb912264ceda",
+      "file_size": 37,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0085",
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "source_path": "tasks/haoze/media-organizer/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/media-organizer/initial_workspace/readme.txt",
+      "file_sha": "7706b80b1b0d40c07b64292b2cc9b24fe83103af",
+      "file_size": 38,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0086",
+      "task": "media-organizer",
+      "source_branch": "haoze",
+      "source_dev": "haoze",
+      "source_path": "tasks/haoze/media-organizer/preprocess/main.py",
+      "dest_path": "tasks/finalpool/media-organizer/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0087",
+      "task": "monitoring-agent",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/monitoring-agent/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/monitoring-agent/docs/agent_system_prompt.md",
+      "file_sha": "f1d59a5d391b5761835db741f6a942c01c27653a",
+      "file_size": 123,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0088",
+      "task": "monitoring-agent",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/monitoring-agent/docs/task.md",
+      "dest_path": "tasks/finalpool/monitoring-agent/docs/task.md",
+      "file_sha": "eece2322fe63c72a3c0ea9f1df8b434137c14e90",
+      "file_size": 91,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0089",
+      "task": "monitoring-agent",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/monitoring-agent/evaluation/main.py",
+      "dest_path": "tasks/finalpool/monitoring-agent/evaluation/main.py",
+      "file_sha": "3363334252f44878e898d7a4fae802dd6844e231",
+      "file_size": 279,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0090",
+      "task": "monitoring-agent",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/monitoring-agent/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/monitoring-agent/groundtruth_workspace/readme.txt",
+      "file_sha": "34bcbbe1f6f6f96c42d98b8ceb2ad5eed4cd3200",
+      "file_size": 38,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0091",
+      "task": "monitoring-agent",
+      "source_branch": "xiaochen_dev",
+      "source_dev": "xiaochen",
+      "source_path": "tasks/xiaochen/monitoring-agent/preprocess/main.py",
+      "dest_path": "tasks/finalpool/monitoring-agent/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0092",
+      "task": "network-analyzer",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "source_path": "tasks/yuxuan/network-analyzer/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/network-analyzer/docs/agent_system_prompt.md",
+      "file_sha": "69f6a79bc99e06a3474d552900a8b1925a668d50",
+      "file_size": 123,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0093",
+      "task": "network-analyzer",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "source_path": "tasks/yuxuan/network-analyzer/docs/task.md",
+      "dest_path": "tasks/finalpool/network-analyzer/docs/task.md",
+      "file_sha": "474295ab9a63e34b404e4fbf40458e2f8c388663",
+      "file_size": 91,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0094",
+      "task": "network-analyzer",
+      "source_branch": "yuxuan-dev",
+      "source_dev": "yuxuan",
+      "source_path": "tasks/yuxuan/network-analyzer/evaluation/main.py",
+      "dest_path": "tasks/finalpool/network-analyzer/evaluation/main.py",
+      "file_sha": "38306e8f69d42cb0c26a07c00ebeeb340b2b0ffd",
+      "file_size": 279,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0095",
+      "task": "order-processor",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/order-processor/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/order-processor/docs/agent_system_prompt.md",
+      "file_sha": "551b26678450a3109da2f021331e5c7b47340e5c",
+      "file_size": 122,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0096",
+      "task": "order-processor",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/order-processor/docs/task.md",
+      "dest_path": "tasks/finalpool/order-processor/docs/task.md",
+      "file_sha": "80c3094dc46fd6277a3edc355ba369dff9908fea",
+      "file_size": 89,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0097",
+      "task": "order-processor",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/order-processor/evaluation/main.py",
+      "dest_path": "tasks/finalpool/order-processor/evaluation/main.py",
+      "file_sha": "d7be8a27076fd29d9800c597607bf995b0b4d3ca",
+      "file_size": 278,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0098",
+      "task": "order-processor",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/order-processor/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/order-processor/initial_workspace/readme.txt",
+      "file_sha": "9bc4c8c2f543a3e00f2aaf52d3cac3fc4d61a186",
+      "file_size": 38,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0099",
+      "task": "payment-processor",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/payment-processor/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/payment-processor/docs/agent_system_prompt.md",
+      "file_sha": "2dac5ae1038b129bb721bfffbdf774822956de98",
+      "file_size": 124,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0100",
+      "task": "payment-processor",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/payment-processor/docs/task.md",
+      "dest_path": "tasks/finalpool/payment-processor/docs/task.md",
+      "file_sha": "7ab01099d715c4b3a643280464582fabfd590e32",
+      "file_size": 93,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0101",
+      "task": "payment-processor",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/payment-processor/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/payment-processor/docs/user_system_prompt.md",
+      "file_sha": "fadb1bca67b2a0e7869ca5302fa2d413386506ab",
+      "file_size": 52,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0102",
+      "task": "payment-processor",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/payment-processor/evaluation/main.py",
+      "dest_path": "tasks/finalpool/payment-processor/evaluation/main.py",
+      "file_sha": "7b815ec12ed6cd461921ec5d3f0293b21b16dace",
+      "file_size": 280,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0103",
+      "task": "payment-processor",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/payment-processor/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/payment-processor/groundtruth_workspace/readme.txt",
+      "file_sha": "f0bbd0d0a6729357f09f78d2e4a809a66f481d55",
+      "file_size": 39,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0104",
+      "task": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/pdf-report-generator/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/pdf-report-generator/docs/agent_system_prompt.md",
+      "file_sha": "62db8dc075cda6da4f3f0c3fa8b373524d32211b",
+      "file_size": 127,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0105",
+      "task": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/pdf-report-generator/docs/task.md",
+      "dest_path": "tasks/finalpool/pdf-report-generator/docs/task.md",
+      "file_sha": "2b55c6adc7323f8e45d313cffc30380c9ea53442",
+      "file_size": 99,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0106",
+      "task": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/pdf-report-generator/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/pdf-report-generator/docs/user_system_prompt.md",
+      "file_sha": "1c02cf84b856db4600d16eacd13e06af26c73af7",
+      "file_size": 55,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0107",
+      "task": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/pdf-report-generator/evaluation/main.py",
+      "dest_path": "tasks/finalpool/pdf-report-generator/evaluation/main.py",
+      "file_sha": "d81995c4d247dc1339c63c9babbd0c1fda79e1a8",
+      "file_size": 283,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0108",
+      "task": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/pdf-report-generator/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/pdf-report-generator/groundtruth_workspace/readme.txt",
+      "file_sha": "11350ab1898ef9b63e7ecba0d78fbdbbc8e44123",
+      "file_size": 42,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0109",
+      "task": "pdf-report-generator",
+      "source_branch": "jl_dev",
+      "source_dev": "jl",
+      "source_path": "tasks/jl/pdf-report-generator/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/pdf-report-generator/initial_workspace/readme.txt",
+      "file_sha": "62aa6c0fa7688557012af61025fa576a73c57812",
+      "file_size": 43,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0110",
+      "task": "permission-manager",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/permission-manager/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/permission-manager/docs/agent_system_prompt.md",
+      "file_sha": "6ea4a757b1c5355e13fd8c60a1112a390ef734ee",
+      "file_size": 125,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0111",
+      "task": "permission-manager",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/permission-manager/docs/task.md",
+      "dest_path": "tasks/finalpool/permission-manager/docs/task.md",
+      "file_sha": "fc0d74d29fd77c1b941be474d7564842cdae8093",
+      "file_size": 95,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0112",
+      "task": "permission-manager",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/permission-manager/evaluation/main.py",
+      "dest_path": "tasks/finalpool/permission-manager/evaluation/main.py",
+      "file_sha": "30f2138eb459341c7f24a969ca6647c86084fb7d",
+      "file_size": 281,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0113",
+      "task": "permission-manager",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/permission-manager/initial_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/permission-manager/initial_workspace/readme.txt",
+      "file_sha": "01a1d345896fa4f6daff621e073d14f082d718ef",
+      "file_size": 41,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0114",
+      "task": "permission-manager",
+      "source_branch": "yuzhen-dev",
+      "source_dev": "yuzhen",
+      "source_path": "tasks/yuzhen/permission-manager/preprocess/main.py",
+      "dest_path": "tasks/finalpool/permission-manager/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0115",
+      "task": "personalization-service",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/personalization-service/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/personalization-service/docs/agent_system_prompt.md",
+      "file_sha": "a5a746fd57bd52ff20e8801bf6a32ed8e39d375a",
+      "file_size": 130,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0116",
+      "task": "personalization-service",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/personalization-service/docs/task.md",
+      "dest_path": "tasks/finalpool/personalization-service/docs/task.md",
+      "file_sha": "6bdbf2bd286948414a732205a502c9e06336ee2b",
+      "file_size": 105,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0117",
+      "task": "personalization-service",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/personalization-service/evaluation/main.py",
+      "dest_path": "tasks/finalpool/personalization-service/evaluation/main.py",
+      "file_sha": "75683b4a6baacc47daf8991e7a84e532dfd0be1e",
+      "file_size": 286,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0118",
+      "task": "personalization-service",
+      "source_branch": "lv",
+      "source_dev": "lv",
+      "source_path": "tasks/lv/personalization-service/preprocess/main.py",
+      "dest_path": "tasks/finalpool/personalization-service/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0119",
+      "task": "price-tracker",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/price-tracker/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/price-tracker/docs/agent_system_prompt.md",
+      "file_sha": "4d38c4f2c9daeea975f76e7f701d2d536c997d7e",
+      "file_size": 120,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0120",
+      "task": "price-tracker",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/price-tracker/docs/task.md",
+      "dest_path": "tasks/finalpool/price-tracker/docs/task.md",
+      "file_sha": "66908fff5310e6ab65f9882c44cc71568715974e",
+      "file_size": 85,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0121",
+      "task": "price-tracker",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/price-tracker/evaluation/main.py",
+      "dest_path": "tasks/finalpool/price-tracker/evaluation/main.py",
+      "file_sha": "b6c6f37202e826e8444fc223b6e82c7cc3e2d9c2",
+      "file_size": 276,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0122",
+      "task": "price-tracker",
+      "source_branch": "fan-dev",
+      "source_dev": "fan",
+      "source_path": "tasks/fan/price-tracker/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/price-tracker/groundtruth_workspace/readme.txt",
+      "file_sha": "1617067aea180d556b21366e720b3e3c99b10f8b",
+      "file_size": 35,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0123",
+      "task": "product-catalog",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/product-catalog/docs/agent_system_prompt.md",
+      "dest_path": "tasks/finalpool/product-catalog/docs/agent_system_prompt.md",
+      "file_sha": "d3a114a3596772e5ac400dc35fdc29d4e96d365a",
+      "file_size": 122,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0124",
+      "task": "product-catalog",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/product-catalog/docs/task.md",
+      "dest_path": "tasks/finalpool/product-catalog/docs/task.md",
+      "file_sha": "c246972a18fef82bf5ab87e73b7e3dd4c0ddced1",
+      "file_size": 89,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0125",
+      "task": "product-catalog",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/product-catalog/docs/user_system_prompt.md",
+      "dest_path": "tasks/finalpool/product-catalog/docs/user_system_prompt.md",
+      "file_sha": "b8e7ce47c5fd73414624e52974ce17baefe827e3",
+      "file_size": 50,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0126",
+      "task": "product-catalog",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/product-catalog/evaluation/main.py",
+      "dest_path": "tasks/finalpool/product-catalog/evaluation/main.py",
+      "file_sha": "aa5ad4fee1fa6eb3248c4003f8848f3d6075344e",
+      "file_size": 278,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0127",
+      "task": "product-catalog",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/product-catalog/groundtruth_workspace/readme.txt",
+      "dest_path": "tasks/finalpool/product-catalog/groundtruth_workspace/readme.txt",
+      "file_sha": "15a9147f4513299969477158e87bf807f5edb214",
+      "file_size": 37,
+      "file_mode": "100644"
+    },
+    {
+      "id": "S2-0128",
+      "task": "product-catalog",
+      "source_branch": "junteng_dev",
+      "source_dev": "junteng",
+      "source_path": "tasks/junteng/product-catalog/preprocess/main.py",
+      "dest_path": "tasks/finalpool/product-catalog/preprocess/main.py",
+      "file_sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+      "file_size": 56,
+      "file_mode": "100644"
+    }
+  ]
+}
